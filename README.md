@@ -7,7 +7,7 @@ This tutorial will able to go show you guys and able to make you guys understadn
 
 - [Anchors](#anchors)
 - [Quantifiers](#quantifiers)
-- [Character Classes](#characted-classes)
+- [Character Classes](#character-classes)
 - [Grouping and Capturing](#grouping-and-capturing)
 - [Greedy and Lazy Match](#greedy-and-lazy-match)
 - [Bracket Expressions](#bracket-expressions)
