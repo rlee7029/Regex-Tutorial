@@ -19,13 +19,13 @@ This tutorial will able to go show you guys and able to make you guys understadn
 '$' is a meanning of ending of the string. '(m)' or knows as mulitline is not enable in this regex with means that all regex will end with '$'.
 
 ### Quantifiers
-'+' is the operator for quantifiers. This will allow to connect any emails name/email service/.com/etc/ For example it could be email name + email service + '.com'. Also other methods could be used is {_,_}. For example if we put {4,10}, this allow the match range to be 4-10 and we could also input charcters instead of numbers. 
+'+' is the operator for quantifiers. This will allow to connect any emails name/email service/.com/etc/ For example it could be email name + email service + '.com'. Also other methods could be used is {_,_}. For example if we put {2,6}, this allow the match range to be 2-6 and we could also input charcters instead of numbers. 
 
 ### Charcter Classes
 '/d' is the charcter c;ass that is used. It allows to match a single charcters that could be any numbers between 0-9. Also it only allows to match single digit numbers so any double digit number would not work. 
 
 ### Grouping and Capturing
-To group this expression, '([a-z0-9_\.-]+)' will allow us to match the user email name, second group is '([da-z\.-]+)' allow us to match the email service, and lastely the third group will "([a-z\.]{4-10})' to add the '.com'.
+To group this expression, '([a-z0-9_\.-]+)' will allow us to match the user email name, second group is '([da-z\.-]+)' allow us to match the email service, and lastely the third group will "([a-z\.]{2-6})' to add the '.com'.
 
 ### Greedy and Lazy Match
 For email regex, we have greedy matches. This allows us to use '+' Quantifiers, it will allow us to match many times as possible. Another Quantifiers we can use is '{}; when we are matching the numbers for the last group. 
