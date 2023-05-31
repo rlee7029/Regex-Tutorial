@@ -21,7 +21,7 @@ This tutorial will able to go show you guys and able to make you guys understadn
 ### Quantifiers
 '+' is the operator for quantifiers. This will allow to connect any emails name/email service/.com/etc/ For example it could be email name + email service + '.com'. Also other methods could be used is {_,_}. For example if we put {2,6}, this allow the match range to be 2-6 and we could also input charcters instead of numbers. 
 
-### Charcter Classes
+### Character Classes
 '/d' is the charcter c;ass that is used. It allows to match a single charcters that could be any numbers between 0-9. Also it only allows to match single digit numbers so any double digit number would not work. 
 
 ### Grouping and Capturing
